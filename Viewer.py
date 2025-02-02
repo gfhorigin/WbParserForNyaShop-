@@ -13,7 +13,7 @@ def ToInt(x):
     except:
         return False
 
-bot = telebot.TeleBot('7121911975:AAF0zcjrXAnFvBmA3gSFkjOR2uhv3wMUh64')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=["start"])
 def start(message, res=False):
